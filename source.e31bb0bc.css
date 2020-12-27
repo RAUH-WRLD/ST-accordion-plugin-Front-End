@@ -1,0 +1,34 @@
+.accordion-list {
+  max-width: 1270px;
+  margin: 0 auto;
+}
+
+.accordion-list__item {
+  cursor: pointer;
+  background: #eee;
+  max-width: 500px;
+  padding: 0 50px;
+  margin-bottom: 20px;
+}
+
+.accordion__title {
+  display: flex;
+  justify-content: space-between;
+}
+.accordion__title i {
+  padding-top: 17px;
+}
+
+.accordion__info {
+  display: none;
+}
+.accordion__info p {
+  margin: 0;
+}
+
+.active {
+  display: block;
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=/source.e31bb0bc.css.map */
